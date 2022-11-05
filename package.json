@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d views",
     "start": "nodemon app.js"
   },
   "author": "hidayahrah",
   "license": "ISC",
+  "homepage": "https://hidayahrah.github.io/portfolio/",
   "dependencies": {
     "ejs": "^3.1.8",
     "elementor": "^2.1.0",
