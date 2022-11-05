@@ -12,7 +12,7 @@ app.use("/js", express.static(__dirname + "public/js"));
 app.use("/img", express.static(__dirname + "public/img"));
 
 // Set View's
-app.set("views", "./views/v2");
+app.set("views", "./views");
 app.set("view engine", "ejs");
 
 // Navigation
