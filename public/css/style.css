@@ -49,7 +49,7 @@
 .skills-first-style .skill-container {
   position: relative;
   background-color: transparent;
-  border: 1px solid #0b78a3;
+  border: 1px solid #04B4E0;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -69,7 +69,7 @@
   color: #888;
 }
 .skills-first-style .skill-percentage {
-  background-color: #0ba376;
+  background-color: #04B4E0;
   border: 2px solid #fff;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -312,28 +312,16 @@
   padding-bottom: 0;
 }
 .timeline .left-part {
-  width: 30%;
+  width: 35%;
   display: table-cell;
-  padding-right: 100px;
+  padding-right: 86px;
   min-height: 100%;
   text-align: right;
   vertical-align: top;
 }
 
-.left-part-v2 {
-  width: 32%;
-  padding-right: 100px;
-}
-.divider-v2 {
-  left: 20%;
-}
-.right-part-v2 {
-  padding-left: 0px;
-  width: 90%;
-}
-
 .timeline .right-part {
-  width: 90%;
+  width: 92%;
   display: table-cell;
   padding-left: 0px;
   padding-right: 15px;
@@ -346,7 +334,7 @@
 .timeline .divider {
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 22%;
   bottom: 0;
   width: 1px;
   background-color: #eee;
