@@ -13,7 +13,7 @@ app.use("/img", express.static(__dirname + "public/img"));
 app.engine("html", require("ejs").renderFile);
 
 // Set View's
-app.set("views", "./views");
+app.set("views", "./views/v3");
 app.set("view engine", "html");
 // app.set("views", "./views/v2");
 // app.set("view engine", "ejs");
