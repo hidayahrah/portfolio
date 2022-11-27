@@ -49,7 +49,7 @@
 .skills-first-style .skill-container {
   position: relative;
   background-color: transparent;
-  border: 1px solid #04B4E0;
+  border: 1px solid #04b4e0;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -69,7 +69,7 @@
   color: #888;
 }
 .skills-first-style .skill-percentage {
-  background-color: #04B4E0;
+  background-color: #04b4e0;
   border: 2px solid #fff;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -312,18 +312,17 @@
   padding-bottom: 0;
 }
 .timeline .left-part {
-  width: 35%;
+  width: 30%;
   display: table-cell;
-  padding-right: 86px;
+  padding-right: 25px;
   min-height: 100%;
   text-align: right;
   vertical-align: top;
 }
-
 .timeline .right-part {
-  width: 92%;
+  width: 70%;
   display: table-cell;
-  padding-left: 0px;
+  padding-left: 25px;
   padding-right: 15px;
   vertical-align: top;
 }
@@ -334,7 +333,7 @@
 .timeline .divider {
   position: absolute;
   top: 0;
-  left: 22%;
+  left: 30%;
   bottom: 0;
   width: 1px;
   background-color: #eee;
@@ -583,7 +582,7 @@ a > .certificate-item:hover {
 .lm-info-block .lm-info-block-value:empty {
   margin: 0;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
   .timeline-second-style .timeline-item {
     position: relative;
     display: block;
